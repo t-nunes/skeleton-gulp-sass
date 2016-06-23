@@ -1,0 +1,23 @@
+{
+  "name": "skeletonGulpSass",
+  "authors": [
+    "Thiago Nunes <thiago_nunes_91@yahoo.com.br>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "skeleton",
+    "gulp",
+    "sass",
+    "preprocess"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

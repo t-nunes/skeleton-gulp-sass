@@ -1,0 +1,10 @@
+.widget{
+    position: relative;
+
+    &__header{
+        @extend .color-white;
+
+        padding: $base-spacer;
+        background-color: $widget__header-bg;
+    }
+}

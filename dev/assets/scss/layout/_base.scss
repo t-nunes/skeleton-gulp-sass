@@ -1,0 +1,12 @@
+html{
+    font-size: $base-font-size;
+    font-family: $base-font-sans-serif;
+    font-weight: $base-font-weight-regular;
+    line-height: $base-line-height;
+}
+
+html,body{
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
