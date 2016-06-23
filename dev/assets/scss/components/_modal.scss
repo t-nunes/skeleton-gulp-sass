@@ -1,8 +1,11 @@
-.modal{
+.c-modal {
     width: 400px;
     margin: 0 auto;
+
+    background-color: $modal-bg;
+    border-radius: $modal-border-radius;
 }
 
-.modal__header{
+.c-modal__header{
     padding: $base-spacer;
 }

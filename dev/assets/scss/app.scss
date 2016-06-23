@@ -1,5 +1,9 @@
 @import "var";
 
+/* --- Modules --- */
+@import "modules/text";
+
+/* --- Layout --- */
 @import "layout/base";
 @import "layout/reset";
 @import "layout/helpers";
@@ -7,12 +11,6 @@
 
 
 
-
-
-
-
-/*
-    --- Components ---
-*/
+/* --- Components --- */
 @import "components/widget";
 @import "components/modal";

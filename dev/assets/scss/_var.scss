@@ -31,8 +31,9 @@ $base-color-dark-secondary: fade($base-color-dark-primary,.58);
 */
 
 // Modal
-$modal-bg: $base-color-white-primary;
-$modal-backdrop: $base-color-dark-secondary;
+$modal-bg               : $base-color-white-primary;
+$modal-backdrop         : $base-color-dark-secondary;
+$modal-border-radius    : $base-border-radius;
 
 // Widget
 $widget__header-bg: $base-color-primary !default;

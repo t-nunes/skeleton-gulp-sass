@@ -1,4 +1,4 @@
-.widget{
+.c-widget {
     position: relative;
 
     &__header{
@@ -6,5 +6,9 @@
 
         padding: $base-spacer;
         background-color: $widget__header-bg;
+    }
+
+    &__body{
+        padding: $base-spacer;
     }
 }

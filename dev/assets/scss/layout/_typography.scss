@@ -16,3 +16,16 @@ h6,.h6{@extend %p-headings; font-size: 1em}
 .color-white            {color: $base-color-white-primary;}
 .color-white-secondary  {color: $base-color-white-secondary;}
 
+
+
+
+/*
+    --- Lists ---
+*/
+.list-disc{
+    list-style: disc;
+
+    ul{
+        list-style: circle;
+    }
+}
