@@ -1,4 +1,4 @@
-%p-clearfix {
+%h-clearfix {
     &:before, &:after{
         content: " ";
         display: table;
@@ -10,5 +10,5 @@
 }
 
 .h-clearfix{
-    @extend %p-clearfix;
+    @extend %h-clearfix;
 }

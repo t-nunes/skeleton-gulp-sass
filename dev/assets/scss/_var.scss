@@ -10,30 +10,3 @@ $base-font-weight-extra-bold   : 800 !default;
 
 $base-border-radius     : 2px !default;
 $base-spacer            : 15px !default;
-
-$base-main-colors: (
-    primary : #3F51B5,
-    accent  : #009688
-);
-
-$base-color-primary : map_get($base-main-colors,primary) !default;
-$base-color-accent  : map_get($base-main-colors,accent) !default;
-
-$base-color-white-primary: #FFFFFF !default;
-$base-color-white-secondary: fade($base-color-white-primary,.58) !default;
-
-$base-color-dark-primary: #000;
-$base-color-dark-secondary: fade($base-color-dark-primary,.58);
-
-
-/*
-    --- Components ---
-*/
-
-// Modal
-$modal-bg               : $base-color-white-primary;
-$modal-backdrop         : $base-color-dark-secondary;
-$modal-border-radius    : $base-border-radius;
-
-// Widget
-$widget__header-bg: $base-color-primary !default;

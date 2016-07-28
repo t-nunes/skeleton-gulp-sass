@@ -3,6 +3,7 @@
 /* --- Modules --- */
 @import "modules/text";
 
+
 /* --- Layout --- */
 @import "layout/base";
 @import "layout/reset";
@@ -10,7 +11,5 @@
 @import "layout/typography";
 
 
-
 /* --- Components --- */
-@import "components/widget";
-@import "components/modal";
+@import "components/c-widget";
