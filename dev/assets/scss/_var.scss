@@ -10,3 +10,13 @@ $base-font-weight-extra-bold   : 800 !default;
 
 $base-border-radius     : 2px !default;
 $base-spacer            : 15px !default;
+
+
+$base-colors:(
+    primary     : #673AB7,
+    secondary   : #F44336,
+    accent      : #009688
+);
+$base-color--primary    : map_get($base-colors,primary);
+$base-color--secondary  : map_get($base-colors,secondary);
+$base-color--accent     : map_get($base-colors,accent);
