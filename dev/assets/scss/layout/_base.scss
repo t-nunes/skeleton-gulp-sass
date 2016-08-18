@@ -3,6 +3,9 @@ html{
     font-family: $base-font-sans-serif;
     font-weight: $base-font-weight-regular;
     line-height: $base-line-height;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 html,body{

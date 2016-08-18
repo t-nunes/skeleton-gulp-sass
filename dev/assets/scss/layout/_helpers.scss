@@ -1,10 +1,27 @@
-.h-clearfix{
-    &:before, &:after{
-        content: " ";
-        display: table;
-    }
+.h-clearfix {
+    @include clearfix;
+}
+.h-center-block {
+    @include center-block;
+}
+.h-pull-right {
+    float: right !important;
+}
+.h-pull-left {
+    float: left !important;
+}
 
-    &:after {
-        clear: both;
-    }
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.h-show {
+    display: block !important;
+}
+.h-invisible {
+    visibility: hidden;
+}
+.h-text-hide {
+    @include text-hide;
 }

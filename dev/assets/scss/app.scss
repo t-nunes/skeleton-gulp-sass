@@ -1,3 +1,14 @@
+@import "vendor/bootstrap/variables";
+@import "vendor/bootstrap/mixins";
+
+// Reset and dependencies
+@import "vendor/bootstrap/normalize";
+
+// Core CSS
+@import "vendor/bootstrap/grid";
+@import "vendor/bootstrap/responsive-utilities";
+
+
 @import "var";
 
 /* --- Modules --- */
@@ -9,7 +20,3 @@
 @import "layout/reset";
 @import "layout/helpers";
 @import "layout/typography";
-
-
-/* --- Components --- */
-@import "components/buttons";
